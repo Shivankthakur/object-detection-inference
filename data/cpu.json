@@ -1,0 +1,29 @@
+{
+  "model": "yolov8m.pt",
+  "backend": "torch",
+  "device": "cpu",
+  "imgsz": 640,
+  "frames_run": 301,
+  "fps": 4.425282985455716,
+  "latency_e2e_ms": {
+    "mean_ms": 224.62020132402918,
+    "stdev_ms": 192.40817974199314,
+    "p50": 165.52499984391034,
+    "p90": 272.38829992711544,
+    "p99": 1165.8129000570625
+  },
+  "latency_breakdown_mean_ms": {
+    "pre": 1.3834990017994793,
+    "infer": 218.7928578087695,
+    "post": 3.8536382077936318
+  },
+  "system_means": {
+    "cpu_util_mean_pct": 22.968106312292356,
+    "ram_used_mean_mb": 13700.995496781561,
+    "gpu_util_mean_pct": null,
+    "vram_used_mean_mb": null,
+    "power_mean_w": null
+  },
+  "energy_per_frame_j": null,
+  "duration_s": 68.018248999957
+}
